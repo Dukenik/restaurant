@@ -1,0 +1,266 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	/*font-family: 'Playfair Display', serif;*/
+	color: #5c6369;
+}
+ul,li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+p {
+	line-height: 1.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+}
+.meny {
+	justify-content: space-between;
+	margin-top: 10px;
+
+}
+
+.meny_item {
+	font-weight: 700;
+	font-size: 14px;
+
+}
+.meny_item a {
+	color:#2c465a;
+	text-transform: uppercase;
+}
+.cta {
+	margin-top: -5px;
+	background: #fea100;
+	color: white;
+	border-radius: 4px;
+	text-transform: uppercase;
+	padding: 15px;
+	display: block;
+	cursor:pointer;
+	width: 205px;
+	border: 0;
+	font-weight: 700;
+	display: flex;
+	justify-content: center; 
+
+}
+.cta:hover {
+	text-decoration: none;
+	color: white;
+}
+.book_icon {
+	background: url(../img/order.png);
+	width: 21px;
+	height: 17px;
+	display: block;
+	margin-right: 13px;
+}
+.main_header {
+	padding: 24px 0;
+}
+.offer {
+	background: url(../img/first-bg.jpg) no-repeat center top;
+}
+.title {
+	padding: 205px 0;
+}
+.title_heading {
+	font-size: 56px;
+	color: white;
+	}
+.title_desk {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:white;
+	margin-top: -10px;
+}
+.title_desk span {
+	color:  #fea100;
+	}
+.call {
+	background: #edf1f3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+.phone {
+	display: flex;
+	font-family: PlayfairDisplay;
+	color:  #14141d;
+	font-size: 32px;
+	font-weight: bold;
+	width: 455px;
+	margin: 0 auto; 
+
+}
+.phone_text {
+	background: url(../img/phone.png) no-repeat left center;
+	font-family: Sintony;
+	color:  #14141d;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width:180px;
+	padding-left:56px; 
+	margin-top: -4px;
+	display: block;
+	padding-top: 5px;
+
+}
+.phone_text span {
+	color:  #fea100;
+	font-size: 16px;
+}
+.phone_digest {
+	margin-top: -5px;
+	margin-left: 46px;
+}
+.history {
+	margin-top: 60px;
+}
+.history_title {
+	font-family: PlayfairDisplay;
+	color:  #14141d;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.history_text {
+	font-family: Sintony;
+	color:  #5c6369;
+	font-size: 14px;
+	font-weight: 400;
+}
+.history_button {
+	width: 148px;
+	margin-top: 48px;
+
+}
+.food_images {
+	margin-bottom: 10px;
+
+}
+.food_images_item {
+	margin-bottom: 10px;
+
+
+}
+.food_images_down {
+	margin-top: 50px;
+}
+.about {
+	padding: 65px 0 100px;
+}
+.special {
+	background:url(../img/third-bg.jpg) no-repeat center top;
+	padding-top: 80px;
+}
+.special_title {
+	font-family: PlayfairDisplay;
+	color:  #ffffff;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+}
+.food {
+	text-align: center;
+	box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+	margin-top: 20px;
+	margin-bottom: 120px;
+
+}
+.food_img {
+	margin-bottom: 45px;
+
+}
+.food_title {
+	font-size: 26px;
+	margin-bottom: 10px;
+
+}
+.food_desc {
+	font-size: 14px;
+	padding: 0 50px;
+
+}
+.food_details {
+	border-top: 1px solid #e1e1e1;
+	margin:0 45px;
+	-ms-text-align-last: auto;
+	text-align:left;
+	padding: 19px 0;
+}
+.food_del {
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 78px;
+	border-right: 1px solid #e1e1e1;
+	margin-right: 18px;
+	font-weight: 700;
+
+}
+
+.food_del span {
+	font-family: Sintony;
+	color:  #fe4c8d;
+}
+.food_phone {
+	font-family: PlayfairDisplay;
+	color:  #14141d;
+	font-size: 26px;
+	font-weight: 700;
+}
+.food_price {
+	font-family: PlayfairDisplay;
+	color:  #fea100;
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.footer {
+background-color:  #373844;
+color: #adb3b7;
+font-size: 13px;
+padding: 72px 106px;
+}
+.socials {
+
+}
+.socials_item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: block;
+	border: 1px solid red;
+}
+.socials__item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: block;
+}
+
+.socials__item_fb a {
+	background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+
+.socials__item_tw a {
+	background: #55acee url('../img/tw.png') no-repeat center center;
+	margin: 0 7px;
+}
+
+.socials__item_g a {
+	background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+.line {
+	background: #52535e;
+	height: 1px;
+	margin-top: 50px;
+}
+.credits {
+	text-align: center;
+	margin-top: 43px;
+}
